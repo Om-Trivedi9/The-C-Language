@@ -11,7 +11,10 @@ main()
       printf("enter value of redius :");
       scanf("%f",&redius);
 
-      area  PI*PI*redius;
+      area  PI
+
+
+      *PI*redius;
 
       printf("perimeter of curcle :");
 
