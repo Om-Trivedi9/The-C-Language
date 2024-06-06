@@ -11,15 +11,8 @@ main()
      printf("R      |\n");
      printf("N      |\n");
      printf("W      |\n");
-     printf("|      |\N");
+     printf("|      |\n");
      printf("-------- ");
-
-
-
      getch();
-
-
-
-
 
 }
