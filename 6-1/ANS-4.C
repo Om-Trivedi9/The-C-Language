@@ -4,18 +4,18 @@
 #define sf scanf
 main()
 {
-	    int i=1, j;
+	    int i, j;
 	    clrscr();
 
-	    pf("enter any number :");
+	    pf("enter first number:");
+	    sf("%d",&i);
+	    pf("enter first number:");
 	    sf("%d",&j);
 
 	    while(i<=j)
 	    {
 
-	       pf("%d \t",i++);
-
-
+	     pf("%d",i--);
 	    }
 
 

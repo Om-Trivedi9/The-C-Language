@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+#define pf printf
+#define sf scanf
+main()
+{
+	    int i, j=1;
+	    clrscr();
+
+	    pf("enter any number:");
+	    sf("%d",&i);
+
+
+
+
+	    while(i>=j)
+	    {
+
+	     pf("%d \t",i--);
+	    }
+
+
+
+
+
+   getch();
+}
