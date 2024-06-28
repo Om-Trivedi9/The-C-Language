@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main();
+main()
 {
 
     int row, col;
@@ -10,7 +10,6 @@ main();
     printf("enter array size:");
     scanf("%d", &col);
 
-    row = col;
     int a[row][col];
 
     for (int i = 0; i < row; i++)
@@ -27,7 +26,7 @@ main();
     {
         for (int j = 0; j < col; j++)
         {
-            printf("%d", a[% d][% d]);
+            printf("%d", a[i][j]);
         }
         printf("\n");
     }
