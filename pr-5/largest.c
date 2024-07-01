@@ -9,26 +9,26 @@ main()
     printf("enter array size:");
     scanf("%d", &col);
 
-    int a[row][col];
+    int o[row][col];
 
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
             printf("enter element a[%d][%d]:", i, j);
-            scanf("%d", &a[i][j]);
+            scanf("%d", &o[i][j]);
         }
     }
 
     printf("enter row no:");
-    scanf("%d",&a);
+    scanf("%d", &a);
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            if (a < a[i][j])
+            if (a < o[i][j])
             {
-                a = a[i][j];
+                a = o[i][j];
             }
         }
     }
