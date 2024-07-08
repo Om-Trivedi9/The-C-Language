@@ -7,7 +7,7 @@ main()
 {
 	  float firstangal, secondangal, thirdangal;
 
-	 clrscr();
+
 
 	  pf("enter value of firstangal :");
 	  sf("%f",&firstangal);

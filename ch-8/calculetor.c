@@ -56,7 +56,7 @@ main()
 
         case 2:
             printf("enter the value of a and b:");
-            scanf("%d%d", &a, &b);
+            scanf("%d", &a,&b);
             printf("the difference of a and b is:%d\n", a - b);
             divi(a, b);
             break;
