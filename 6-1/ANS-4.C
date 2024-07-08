@@ -1,29 +1,21 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 #define pf printf
 #define sf scanf
 main()
 {
-	    int i, j;
-	    clrscr();
+	int i, j;
 
-	    pf("enter first number:");
-	    sf("%d",&i);
-	    pf("enter first number:");
-	    sf("%d",&j);
+	pf("enter first number:");
+	sf("%d", &i);
+	pf("enter first number:");
+	sf("%d", &j);
 
-	    while(i<=j)
-	    {
+	while (i <= j)
+	{
 
-	     pf("%d",i--);
-	    }
+		pf("%d", i--);
+	}
 
-
-
-
-
-
-
-
-   getch();
+	getch();
 }
