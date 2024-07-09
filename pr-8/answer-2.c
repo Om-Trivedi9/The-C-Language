@@ -2,21 +2,21 @@
 
 void main()
 {
-    char string[200];
+    char string[70];
 
     printf("Enter any string : ");
     scanf("%[^\n]", &string);
 
-    int lenth = 0;
+    int t = 0;
     int *lenth;
 
-    for (int i = 0; i != 'null'; i++)
+    for (int i = 0; string[i] != '\0'; i++)
     {
-        lenth++;
+        t++;
     }
 
-    lenth = &lenth;
+    lenth = &t;
 
-    printf("\n");
+    printf("\n\n\n\n");
     printf("length of string is %d", *lenth);
 }
