@@ -39,14 +39,17 @@ void main()
         printf("enter your name :");
         gets(s1[i].name);
         printf("\n");
+        fflush(stdin);
         printf("enter your course :");
         gets(s1[i].course);
         printf("\n");
+        fflush(stdin);
         printf("enter your city :");
         gets(s1[i].city);
         printf("\n");
+        fflush(stdin);
         printf("enter your school name :");
-        scanf("%s", &s1[i].school);
+        gets(s1[i].school);
         printf("\n\n\n\n\n");
     }
 

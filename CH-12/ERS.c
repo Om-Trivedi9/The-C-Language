@@ -4,20 +4,20 @@
 
 struct student
 {
-    int id;
-    char name[300];
-    int age;
-    char course[300];
-    char city[300];
-    int standard;
-    char school[300];
+    int id[700];
+    int age[700];
+    char name[700];
+    char roal[700];
+    char city[700];
+    char expirianc[700];
+    char company_name[700];
 };
 
 void main()
 {
     int size;
 
-    printf("enter number of student :");
+    printf("enter number of employ :");
     scanf("%d", &size);
 
     struct student s1[size];
@@ -33,25 +33,34 @@ void main()
         printf("enter your name :");
         scanf("%S\n", &s1[i].name);
         fflush(stdin);
-        printf("enter your course :");
-        scanf("%S\n", &s1[i].course);
+        printf("enter your roal for company :");
+        gets(s1[i].roal);
+        fflush(stdin);
+        printf("enter your expirianc :");
+        scanf("%S\n", &s1[i].expirianc);
         fflush(stdin);
         printf("enter your city :");
         scanf("%S\n", &s1[i].city);
-        printf("enter your school name :");
-        scanf("%d\n", &s1[i].school);
+        printf("enter your company name :");
+        scanf("%d\n", &s1[i].company_name);
     }
 
     system("cls");
 
     printf("\n\n");
-    printf("| id\tage\tname\tcourse\tcity\tstandard\tschool|\n");
-    printf("| ---\t-----\t--\t-------\t----------\t----\t------------- |\n");
 
     for (int i = 0; i < size; i++)
     {
-        printf("| %d\t%d\t%s\t%d\t%s\t%s\t%d\t%s |\n", s1[i].id, s1[i].age, s1[i].name, s1[i].course, s1[i].city, s1[i].standard, s1[i].school);
-    }
+        printf("employ delails output\n\n");
 
-    printf("|----------------------------------------------------------------------------|\n");
+        printf("styand ID : %d\n", s1[i].id);
+        printf("student Age : %d\n", s1[i].age);
+        printf("student name : %s\n", s1[i].name);
+        printf("student roal : %s\n", s1[i].roal);
+        printf("student city : %s\n", s1[i].city);
+        printf("student expirianc : %s\n", s1[i].expirianc);
+        printf("student company name : %s\n", s1[i].company_name);
+
+        printf("\n\n\n\n");
+    }
 }
