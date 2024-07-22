@@ -6,7 +6,7 @@ main()
     printf("Enter array A size : ");
     scanf("%d", &o);
     printf("Enter array B size : ");
-    sf("%d", &size);
+    scanf("%d", &size);
     int a[o];
     int b[size], merge[o + size];
 
